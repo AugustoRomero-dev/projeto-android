@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'android';
+    src: url(pacotesite/fontes/idroid.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+        --cor0: #c5ebd6;
+        --cor1: #83e1ad;
+        --cor2: #3ddc84;
+        --cor3: #2fa866;
+        --cor4: #1a5c37;
+        --cor5: #063d1e;
+
+        --font-padrao: Arial, Helvetica, sans-serif;
+        --fonte-destaque: "Bebas Neue", cursive;
+        --fonte-android: 'android', cursive;
+}
+*{
+        margin: 0px;
+        padding: 0px;
+}
+body{
+    
+    background-color: #c5ebd6;
+}
+header{
+    background-image: linear-gradient(to bottom, #1c6d3f, #063d1e);
+    
+
+    
+}
+header h1{
+    text-align: center;
+    padding: 20px;
+    font-family: var(--fonte-destaque);
+    font-weight: bold;
+    
+    
+    font-size: 2.1em;
+    color: white;
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.856);
+}
+header p{
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    font-weight: 300;
+    text-shadow: 3px 4px 7px rgba(0, 0, 0, 0.856);
+    font-family: var(--font-padrao);
+    width: 100%;
+}
+header a{
+    color: #83e1ad;
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+    
+}
+header a:hover{
+    background-color: #1c6d3f;
+    padding: 4px;
+    border-radius: 3px;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    
+    
+}
+nav{
+    background-color: #063d1e56;
+    padding-bottom: 4px;
+    
+    
+}
+main{
+    max-width: 800px;
+    min-width: 350px;
+    padding: 15px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+main h1{
+    font-family: var(--fonte-android);
+    font-weight: lighter;
+    font-size: 1.4em;
+    padding: 5px ;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main h2{
+    font-family: var(--fonte-android);
+    font-weight: lighter;
+    font-size: 1.1em;
+    padding: 5px;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+}
+main p{
+    margin: 8px 0px;
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 3%;
+    line-height: 1em;
+    
+}
+main img{
+    width: 100%;
+}
+main img.maodada{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.video{
+    background-color: #063d1e;
+    margin: 0px -15px 30px 0px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+h3{
+    color: white;
+    background-color: #2fa866;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 4px;
+    text-shadow: 2px 2px 3px black;
+}
+article{
+    background-color: #83e1ad;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    
+}
+article ul{
+    columns: 2;
+    padding: 7px 5px 7px 17px;
+}
+footer{
+    text-align: center;
+    background-color: #2fa866;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+    padding: 3px;
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    color: #1a5c37
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #063d1e
+}
